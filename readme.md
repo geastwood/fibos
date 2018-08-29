@@ -1,3 +1,6 @@
+# install dependencies
+`npm install` or `yarn`
+
 # create fibos account
 * open `createAccount.js`
 * choose an account name
