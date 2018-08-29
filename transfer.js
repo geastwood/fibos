@@ -1,5 +1,5 @@
 var FIBOS = require('fibos.js')
-var localConfigs = require('config.json')
+var localConfigs = require('./config.json')
 var config = {
     chainId: 'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906',
     priKey: localConfigs.eosPrivateKey,
@@ -19,7 +19,7 @@ var eos_client = FIBOS({
 
 const run = async () => {
     let eosaccount = localConfigs.eosAccount
-    let value = '1.0000' + ' EOS' //兑换 EOS 数量
+    let value = 'x.0000' + ' EOS' // amount of eos to transfer
     let ctx = await eos_client.contract('eosio.token')
     let memo = localConfigs.account
     let result = await ctx.transfer(eosaccount, 'fiboscouncil', value, memo)
