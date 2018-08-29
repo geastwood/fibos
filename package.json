@@ -1,13 +1,17 @@
 {
-  "name": "fibos-interact",
-  "version": "1.0.0",
-  "description": "",
-  "repository": "",
-  "keywords": "",
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "fibos.js": "^0.1.0",
-    "isomorphic-fetch": "^2.2.1"
-  }
+    "name": "fibos-interact",
+    "version": "1.0.0",
+    "description": "script to buy fibos",
+    "repository": "https://github.com/geastwood/fibos",
+    "keywords": [
+        "fibos",
+        "eos",
+        "exchange"
+    ],
+    "author": "Fei Liu <liu.feiwood@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "fibos.js": "^0.1.0",
+        "isomorphic-fetch": "^2.2.1"
+    }
 }
