@@ -1,0 +1,13 @@
+{
+  "name": "fibos-interact",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "",
+  "keywords": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fibos.js": "^0.1.0",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
