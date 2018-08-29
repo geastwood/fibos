@@ -21,9 +21,9 @@ const run = async () => {
     let ctx = await fibos_client.contract('eosio.token')
     var result = await ctx.exchange(
         localConfigs.account,
-        `1.0000 EOS@eosio`, // Change here
+        `xx.0000 EOS@eosio`, // Change here
         `0.0000 FO@eosio`,
-        `exchange EOS to FO from fei`,
+        `exchange EOS to FO from`,
         {
             authorization: localConfigs.account,
         },
