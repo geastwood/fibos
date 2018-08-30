@@ -23,3 +23,12 @@
 * run `node exchange.js`
 * check balance again
 
+# exchange fibos to eos
+* change fibos amount in `exchange_to_eos.js`
+* run `node exchange_to_eos.js`
+* check balance again
+
+# transfer eos to own wallet
+* change eos amount in `transfer_to_eos.js`
+* run `node transfer_to_eos.js`
+* check balance again
